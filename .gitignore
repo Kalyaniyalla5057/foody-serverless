@@ -39,3 +39,16 @@ coverage/
 *.local
 *.tmp
 *.bak
+# Temporary Lambda deployment files
+backend/lambda-env.json
+backend/*.backup
+backend/*.zip
+backend/health-event.json
+backend/lambda-event*.json
+backend/lambda-response*.json
+backend/lambda-package/
+backend/create-lambda-zip.cjs
+frontend/.env.backup
+
+# Backup files anywhere in the repository
+*.backup
